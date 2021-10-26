@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(138, 224, 224),
+    rgb(211, 115, 160)
+  );
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+.box {
+  background-color: rgb(65, 247, 247);
+  width: 500px;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 40px;
+  margin-top: 100px;
+}
+.box.pink {
+  background-color: rgb(198, 60, 226);
+}
+.box h2 {
+  font-size: 33px;
+}
+.box p {
+  margin: 5px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  padding: 15px 10px;
+  background-color: rgb(65, 247, 247);
+  border: 5px solid black;
+  border-radius: 35px;
+  font-size: 15px;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  padding: 50px;
+  text-shadow: rgb(65, 247, 247) 5px 5px 5px;
+  font-size: 50px;
+}
