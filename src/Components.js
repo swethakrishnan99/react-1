@@ -3,7 +3,7 @@ import { Component } from 'react';
 class ClassComponent extends Component{
   render(){
     return(
-    <div className="box pink" id="classComponent">
+    <div className="box hidden" id="classComponent">
         <h2>This is created using class Component</h2>
         <p className="black">This is done using external CSS</p>
         <p className="blue" style={{color:"blue"}}>This is done using inline CSS</p>
@@ -14,7 +14,7 @@ class ClassComponent extends Component{
 
 function FunctionalComponent (){
   return(
-    <div className="box" id="FunctionalComponent">
+    <div className="box hidden" id="FunctionalComponent">
         <h2>This is created using functional Component</h2>
         <p className="black">This is done using external CSS</p>
         <p className="blue" style={{color:"blue"}}>This is done using inline CSS</p>
