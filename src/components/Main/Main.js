@@ -10,13 +10,11 @@ export default class Main extends Component {
   };
   toggle1 = () => {
     this.setState((prevState) => {
-      console.log(prevState);
       return { isToggleOn1: !prevState.isToggleOn1 };
     });
   };
   toggle2 = () => {
     this.setState((prevState) => {
-      console.log(prevState);
       return { isToggleOn2: !prevState.isToggleOn2 };
     });
   };
